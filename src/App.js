@@ -7,6 +7,8 @@ import Footer from './Components/Footer/Footer'
 import Portfolio from './Pages/Portfolio/Portfolio'
 import Resume from './Pages/Resume/Resume'
 
+import {BrowserRouter as Router , Switch ,Route} from 'react-router-dom'
+
 import './App.css';
 
 function App() {
@@ -19,8 +21,12 @@ function App() {
         </Grid>         
         <Grid item xs>
         <Header />
-        <Portfolio />
-        <Resume />
+       <Router>
+       <Switch>
+       <Route path="/portfolio"><Portfolio /></Route>        
+       <Route path="/"> <Resume /></Route>
+       </Switch>
+       </Router>
         <Footer />
         </Grid>
       </Grid>

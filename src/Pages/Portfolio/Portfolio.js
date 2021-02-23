@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 const Portfolio = () => {
     return (
         <div>
-           this is portfolio 
+           This is portfolio 
         </div>
     )
 }
