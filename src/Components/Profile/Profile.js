@@ -2,7 +2,7 @@ import React from 'react'
 import { Typography } from '@material-ui/core';
 import './Profile.css'
 
-import profile from '../../assets/images/profile1.jpg';
+import profile from '../../assets/images/profile2.png';
 
 const Profile = () => {
     return (
