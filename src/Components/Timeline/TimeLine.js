@@ -10,7 +10,7 @@ import WorkIcon from '@material-ui/icons/Work';
 
 import "./Timeline.css";
 
-const TimeLine = ({ title , icon,children }) => {
+const TimeLine = ({ title , icon, children }) => {
     return (
         <Timeline className={"timeline"}>
             <TimelineItem className={"timeline_firstItem"}>

@@ -1,0 +1,12 @@
+.timeline{
+  padding:0 !important;   
+}
+.timeline .timeline_header{
+    padding-top: 7px !important;
+}
+.timeline .timeline_firstItem{
+    min-height: 88px !important;
+}
+.timeline .MuiTimelineItem-root{
+    min-height:0px !important;
+}
