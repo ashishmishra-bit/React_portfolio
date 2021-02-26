@@ -16,4 +16,15 @@
 .timeline .timeline_dots_header{
     color: black;
     background-color: var(--main-color);
+    font-size: small !important;
+    padding:10px !important;
+}
+
+.timeline .timeline_dot{
+    color: black;
+    background-color: var(--main-color);    
+    padding:2px !important;
+}
+.timeline .timelineConnector-root{
+    background-color: #eee!important;
 }
