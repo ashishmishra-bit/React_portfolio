@@ -10,3 +10,10 @@
 .timeline .MuiTimelineItem-root{
     min-height:0px !important;
 }
+.timeline .MuiTimelineItem-missingOppositeContent:before{
+    display: none !important;
+}
+.timeline .timeline_dots_header{
+    color: black;
+    background-color: var(--main-color);
+}
