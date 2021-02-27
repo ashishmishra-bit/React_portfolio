@@ -6,12 +6,14 @@ import CoustomTimeline from '../Timeline/TimeLine';
 
 import profile from '../../assets/images/profile2.png';
 
+import resumeDetails from '../../utils/resumeDetails'
+
 const Profile = () => {
     return (
         <div className="profile container_shadow margin">
             <div className="profile_name">
-                <Typography className='name'>Ashish</Typography>
-                <Typography className='title'>Mishra</Typography>
+                <Typography className='name'>{resumeDetails.name}</Typography>
+                <Typography className='title'>{resumeDetails.title}</Typography>
             </div>
 
             <figure className='profile_image'>
