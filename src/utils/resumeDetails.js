@@ -1,3 +1,5 @@
+import React from "react";
+
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -20,18 +22,18 @@ export default {
         },     
         linkedIn:{
             link : 'https://www.facebook.com',
-            text : 'Ashish',
+            text : '@ashish-kumar-mishra',
             icon : <LinkedInIcon />,
         },
         github:{
             link : 'https://www.facebook.com',
-            text : 'Ashish',
+            text : 'ashishmishra-bit',
             icon : <GitHubIcon />,
         },
         instagram:{
             link : 'https://www.facebook.com',
-            text : 'Ashish',
+            text : 'a_s_h_i_s_h_mishra',
             icon : <InstagramIcon />,
         },  
-    }
-}
+    },
+};
