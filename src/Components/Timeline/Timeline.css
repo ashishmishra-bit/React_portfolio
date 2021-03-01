@@ -27,13 +27,14 @@
 }
 .timeline .MuiTimelineConnector-root{
     background-color: #eee!important;
+    /* background-color:black !important; */
 }
 .timeline .timeline_dots_header > .MuiSvgIcon-root {
     font-size: 20px !important;
     color: black !important;
 }
 .timeline .separator_padding{
-    padding-left:18px !important;
+    padding-left:18px !important;    
 }
 .timeline .timeline_content{
     padding-top: 0px !important;

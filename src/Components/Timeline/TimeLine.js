@@ -17,28 +17,23 @@ const TimeLine = ({ title , icon, children }) => {
                 <TimelineSeparator>
                     <TimelineDot className={"timeline_dots_header"}>{icon}</TimelineDot>
                     <TimelineConnector />
-                </TimelineSeparator>
+                    </TimelineSeparator>
                 <TimelineContent>
                     <Typography variant="h6" className={"timeline_header"}>
                         {title}
                     </Typography>
                 </TimelineContent>
             </TimelineItem>
-
-            {children}
-
-            {/* <TimelineItem>
-                <TimeLineSeparator />
-                <TimelineContent>Code</TimelineContent>
-            </TimelineItem> */}
+            {children}            
         </Timeline>
     );
 };
 
 export const TimeLineSeparator = () => (
     <TimelineSeparator className={"separator_padding"}>
+    <TimelineConnector />
         <TimelineDot variant="outlined" className={"timeline_dot"} />
-        <TimelineConnector />
+        
     </TimelineSeparator>
 );
 
