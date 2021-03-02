@@ -3,7 +3,7 @@ import { Button } from "@material-ui/core";
 
 import './Button.css'
 
-const CustomButton = ({ text, icon }) => {
+const CustomButton = ({ text, icon ,link}) => {
     return (
         <Button
             className="site_btn"

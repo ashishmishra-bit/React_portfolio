@@ -60,7 +60,7 @@ const Profile = () => {
 
                 </TimeLine>
                 <div className = "button_container">
-                <CustomButton text = {'Download Resume'} icon = {<GetAppIcon />} />
+                <CustomButton text = {'Download Resume'} icon = {<GetAppIcon />}  link = {""}/>
                 </div>                
                 
             </div>
