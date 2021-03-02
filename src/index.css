@@ -1,5 +1,6 @@
 *{
   margin: 0;
+  padding: 0;
 }
 
 
@@ -12,7 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #fafafa;
   
-  overflow: hidden;
+  /* overflow: hidden; */
   background: url('./assets/images/bg.png');
   
 }

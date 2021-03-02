@@ -14,24 +14,19 @@ export default {
     phone : '+91-8822161061',
     address : 'Guwahati , Assam',
 
-    social: {
-        facebook:{
-            link : 'https://www.facebook.com',
-            text : 'Ashish',
-            icon : <FacebookIcon />,
-        },     
-        linkedIn:{
-            link : 'https://www.facebook.com',
+    social: {            
+        LinkedIn:{
+            link : 'https://www.linkedin.com/in/ashish-kumar-mishra-91366b193',
             text : '@ashish-kumar-mishra',
             icon : <LinkedInIcon />,
         },
-        github:{
-            link : 'https://www.facebook.com',
+        Github:{
+            link : 'https://github.com/ashishmishra-bit',
             text : 'ashishmishra-bit',
             icon : <GitHubIcon />,
         },
-        instagram:{
-            link : 'https://www.facebook.com',
+        Instagram:{
+            link : 'https://www.instagram.com/a_s_h_i_s_h_mishra/',
             text : 'a_s_h_i_s_h_mishra',
             icon : <InstagramIcon />,
         },  

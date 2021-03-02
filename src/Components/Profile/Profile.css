@@ -2,7 +2,7 @@
     background-color: #fff;
     border-radius:10px;
     width:100%;
-    display: inline-block;
+    display: inline-block;    
 }
 .profile_name{
     line-height: 18px;
@@ -24,4 +24,25 @@
 }
 .profile_image img{
     width:100%;
+}
+.profile_information{
+    top: 0 !important;
+    left: 0 !important;
+    margin-top: 12px !important;
+    margin: -40px 10px 30px !important;
+}
+.profile_information .timeline .timeline_content{
+    margin-top: 1px !important;
+    margin-bottom: 12px !important;
+}
+.timelineItem_text{
+    font-size:13.5px !important;
+    color: grey !important;
+    font-weight:400 !important;
+    /* margin-top:200px  !important; */
+}
+
+.timelineItem_text > span{
+    color: black;
+    /* margin-top:200px im !important */
 }

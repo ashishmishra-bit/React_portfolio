@@ -13,17 +13,17 @@ import PersonIcon from "@material-ui/icons/Person";
 
 const TimeLineItem = ({ title, text, link }) => (
     <TimelineItem>
-        <TimeLineSeparator />
+        <TimeLineSeparator/>
         <TimelineContent>
             {link ? (
-                <Typography>
+                <Typography className= "timelineItem_text">
                     <span> {title}: </span>{" "}
                     <a href={link} target="_blank">
                         {text}
                     </a>
                 </Typography>
             ) : (
-                <Typography>                    
+                <Typography className= "timelineItem_text">                    
                     <span> {title}: </span> {text}
                 </Typography>
             )}
@@ -33,7 +33,7 @@ const TimeLineItem = ({ title, text, link }) => (
 
 const Profile = () => {
     return (
-        <div className="profile container_shadow margin">
+        <div className="profile container_shadow">
             <div className="profile_name">
                 <Typography className="name">{resumeDetails.name}</Typography>
                 <Typography className="title">{resumeDetails.title}</Typography>
@@ -49,9 +49,15 @@ const Profile = () => {
                 <TimeLineItem  title='Phone' text={resumeDetails.phone} />
                 <TimeLineItem  title='Job' text={resumeDetails.jobs} />
                 <TimeLineItem  title='Address' text={resumeDetails.address} />
+
+
+            { /*   {Object.keys(resumeDetails.social).map(key =>(
+                    <TimeLineItem  title={key} text={resumeDetails.social[key].text} link ={resumeDetails.social[key].link}  />
+            ))} */}
+
                 </TimeLine>
                 <br />
-                <button>my button</button>
+                <button>Download Resume</button>
             </div>
         </div>
     );
