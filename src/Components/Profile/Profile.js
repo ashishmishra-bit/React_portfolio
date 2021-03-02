@@ -10,6 +10,9 @@ import profile from "../../assets/images/profile2.png";
 
 import resumeDetails from "../../utils/resumeDetails";
 import PersonIcon from "@material-ui/icons/Person";
+import GetAppIcon from '@material-ui/icons/GetApp';
+
+import CustomButton from '../Button/Button'
 
 const TimeLineItem = ({ title, text, link }) => (
     <TimelineItem>
@@ -56,8 +59,10 @@ const Profile = () => {
             ))} */}
 
                 </TimeLine>
-                <br />
-                <button>Download Resume</button>
+                <div className = "button_container">
+                <CustomButton text = {'Download Resume'} icon = {<GetAppIcon />} />
+                </div>                
+                
             </div>
         </div>
     );
