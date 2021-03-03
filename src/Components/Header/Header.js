@@ -18,11 +18,12 @@ import {
     Facebook,
     Twitter,
     LinkedIn,
-    Github,
+    GitHub,
     Telegram,
 } from "@material-ui/icons";
 
 import resumeDetails from "../../utils/resumeDetails"
+import CustomButton  from "../Button/Button"
 
 const Header = (props) => {
     const pathName = props?.location?.pathname;
@@ -44,6 +45,7 @@ const Header = (props) => {
                 {Object.keys(resumeDetails.social).map(key => (
                     <a href = {resumeDetails.social[key].link} target="_blank">{resumeDetails.social[key].icon}</a>
                 ))}
+             <a href="https://github.com/ashishmishra-bit" target="_blank"><CustomButton text = {'My Work'} icon = {<GitHub />} /></a>
                 </div>
             </Navbar.Collapse>
         </Navbar>

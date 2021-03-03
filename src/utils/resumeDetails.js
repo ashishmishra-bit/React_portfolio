@@ -21,11 +21,11 @@ export default {
             text : '@ashish-kumar-mishra',
             icon : <LinkedInIcon />,
         },
-        Github:{
-            link : 'https://github.com/ashishmishra-bit',
-            text : 'ashishmishra-bit',
-            icon : <GitHubIcon />,
-        },
+        // Github:{
+        //     link : 'https://github.com/ashishmishra-bit',
+        //     text : 'ashishmishra-bit',
+        //     icon : <GitHubIcon />,
+        // },
         Instagram:{
             link : 'https://www.instagram.com/a_s_h_i_s_h_mishra/',
             text : 'a_s_h_i_s_h_mishra',
