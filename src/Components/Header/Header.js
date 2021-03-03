@@ -22,6 +22,8 @@ import {
     Telegram,
 } from "@material-ui/icons";
 
+import resumeDetails from "../../utils/resumeDetails"
+
 const Header = (props) => {
     const pathName = props?.location?.pathname;
 
@@ -38,6 +40,11 @@ const Header = (props) => {
                     <Nav.Link as={NavLink} to="/" classname={pathName == '/' ? 'header_link_active' : "header_link"}>Resume</Nav.Link>
                     <Nav.Link as={NavLink} to="/portfolio" classname={pathName == '/portfolio' ? 'header_link_active' : "header_link"}>Portfolio</Nav.Link>
                 </Nav>
+                <div className="header_right">
+                {Object.keys(resumeDetails.social).map(key => (
+                    <a href = {resumeDetails.social[key].link} target="_blank">{resumeDetails.social[key].icon}</a>
+                ))}
+                </div>
             </Navbar.Collapse>
         </Navbar>
     )
