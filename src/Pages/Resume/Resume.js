@@ -25,8 +25,17 @@ const Resume = () => {
                     <h6 className='section_title_text'>Resume</h6>
                 </Grid>
 
-            
 
+            <Grid item xs={12}>
+                <Grid container>
+                {/*experience */}
+                    <Grid item sm = {12}  md = {6}></Grid>
+
+
+                 {/*Education */}
+                    <Grid item sm = {12}  md = {6}></Grid>
+                </Grid>
+            </Grid>
             </Grid>
 
             {/* Services */}
