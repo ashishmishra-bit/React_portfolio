@@ -5,6 +5,9 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import LanguageIcon from '@material-ui/icons/Language';
+import AndroidIcon from '@material-ui/icons/Android';
+import ShutterSpeedIcon from '@material-ui/icons/ShutterSpeed';
 
 export default {
     name : 'Ashih Kumar Mishra',
@@ -85,15 +88,18 @@ export default {
     services: [
         {
             title: 'Web Development',
-            desc: 'I have been developing scalable Website and Web Applications from past 1 year. I have Developed almost all type of websites.'
+            desc: 'I have been developing scalable Website and Web Applications from past 1 year. I have Developed almost all type of websites.',
+            icon: <LanguageIcon />
         },
         {
             title: 'Android Development',
             desc: 'I have been developing & learning Android Development from past 3-4 months. I have developed 2 Android Application',
+            icon: <AndroidIcon />
         },
         {
             title: 'UI / UX Designer',
             desc: 'I gained the interest in UI/UX designing as I started with Front-End development and it always facinated me.',
+            icon: <ShutterSpeedIcon />
         },
     ]
 
