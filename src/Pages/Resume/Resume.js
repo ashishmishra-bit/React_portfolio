@@ -35,7 +35,7 @@ const Resume = () => {
 
 
             <Grid item xs={12}>
-                <Grid container>
+                <Grid container className='resume_timeline'>
                 {/*experience */}
                     <Grid item sm = {12}  md = {6} className= "work_exp">
                     <TimeLine title="Work Experience" icon = {<WorkIcon />}>
@@ -47,7 +47,7 @@ const Resume = () => {
                         </TimelineDot>
                         <TimelineConnector />
                         </TimelineSeparator>
-                        <TimelineContent>
+                        <TimelineContent className="timeline_content">
                         <Typography className="timeline_title">{exp.title}</Typography>
                         <Typography variant= "caption" className="timeline_date">{exp.date}</Typography>
                         <Typography variant= "body2" className="timeline_desc">{exp.desc}</Typography>
