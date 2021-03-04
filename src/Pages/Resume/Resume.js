@@ -11,6 +11,7 @@ import TimelineContent from "@material-ui/lab/TimelineContent";
 import TimelineDot from "@material-ui/lab/TimelineDot";
 
 import WorkIcon from '@material-ui/icons/Work';
+import SchoolIcon from '@material-ui/icons/School';
 
 const Resume = () => {
     return (
@@ -59,7 +60,25 @@ const Resume = () => {
 
 
                  {/*Education */}
-                    <Grid item sm = {12}  md = {6}></Grid>
+                 <Grid item sm = {12}  md = {6} className= "work_exp">
+                 <TimeLine title="Education" icon = {<SchoolIcon />}>
+                 {resumeDetails.experiences.map(exp => (
+                     <TimelineItem>
+                     <TimelineSeparator className="separator_padding">
+                     
+                     <TimelineDot variant="outlined" className="timeline_dot">                      
+                     </TimelineDot>
+                     <TimelineConnector />
+                     </TimelineSeparator>
+                     <TimelineContent className="timeline_content">
+                     <Typography className="timeline_title">{exp.title}</Typography>
+                     <Typography variant= "caption" className="timeline_date">{exp.date}</Typography>
+                     <Typography variant= "body2" className="timeline_desc">{exp.desc}</Typography>
+                     </TimelineContent>
+                     </TimelineItem>
+                 ))}
+                 </TimeLine>
+                 </Grid>
                 </Grid>
             </Grid>
             </Grid>
