@@ -62,7 +62,7 @@ const Resume = () => {
                  {/*Education */}
                  <Grid item sm = {12}  md = {6} className= "work_exp">
                  <TimeLine title="Education" icon = {<SchoolIcon />}>
-                 {resumeDetails.experiences.map(exp => (
+                 {resumeDetails.educations.map(edu => (
                      <TimelineItem>
                      <TimelineSeparator className="separator_padding">
                      
@@ -71,9 +71,9 @@ const Resume = () => {
                      <TimelineConnector />
                      </TimelineSeparator>
                      <TimelineContent className="timeline_content">
-                     <Typography className="timeline_title">{exp.title}</Typography>
-                     <Typography variant= "caption" className="timeline_date">{exp.date}</Typography>
-                     <Typography variant= "body2" className="timeline_desc">{exp.desc}</Typography>
+                     <Typography className="timeline_title">{edu.title}</Typography>
+                     <Typography variant= "caption" className="timeline_date">{edu.date}</Typography>
+                     <Typography variant= "body2" className="timeline_desc">{edu.desc}</Typography>
                      </TimelineContent>
                      </TimelineItem>
                  ))}

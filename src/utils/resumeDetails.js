@@ -70,7 +70,7 @@ export default {
             desc: 'I studied in Army Public School Narangi; Its an CBSE board school with all facilities. I secured 9.8 CGPA in my Xth grade and my subjects were (English,Maths,Science,Social Science & Hindi)',
         },
         {
-            title : 'Senior Secondary (XII), Science',
+            title : 'Senior Secondary (XII)',
             date: '05/2018 - 05/2019',
             desc: 'I studied in Army Public School Narangi; Its an CBSE board school with all facilities. I secured 83.3% in my XIIth grade and my subjects were (Physics,Chemistry,Maths,English,Physical Education)',
         },
