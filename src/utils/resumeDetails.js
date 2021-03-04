@@ -123,7 +123,8 @@ export default {
                 "Python",
                 "Django",
                 "Express.js",
-                "PHP"
+                "PHP",
+                "Dart"
             ],
         },
         {
@@ -132,7 +133,8 @@ export default {
                 "Firebase",
                 "MySQL",
                 "MongoDB",
-                "NoSQL"               
+                "NoSQL",
+                "SQL Lite"             
             ],
         },
         {
