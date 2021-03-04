@@ -92,7 +92,7 @@ export default {
             icon: <LanguageIcon />
         },
         {
-            title: 'Android Development',
+            title: 'Android & Flutter Development',
             desc: 'I have been developing & learning Android Development from past 3-4 months. I have developed 2 Android Application',
             icon: <AndroidIcon />
         },
