@@ -42,7 +42,7 @@ export default {
 
     experiences : [
         {
-            title : 'Web Developer (Freelancecomunitee.com)',
+            title : 'Web Developer (freelancecomunitee.com)',
             date: '19/01/21 - Present',
             desc: 'I am responsible for developing the website and integratingit with automation tools like Integromat , Automate.io ,Zapier , Mailchimp,etc',
         },
