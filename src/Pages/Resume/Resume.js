@@ -1,8 +1,11 @@
 import React from 'react'
 import './Resume.css';
+import TimeLine, { TimeLineSeparator } from "../../Components/Timeline/TimeLine";
 import { Container, Grid } from "@material-ui/core";
 import { Typography } from "@material-ui/core";
 import resumeDetails from '../../utils/resumeDetails';
+
+import WorkIcon from '@material-ui/icons/Work';
 
 const Resume = () => {
     return (
@@ -29,7 +32,9 @@ const Resume = () => {
             <Grid item xs={12}>
                 <Grid container>
                 {/*experience */}
-                    <Grid item sm = {12}  md = {6}></Grid>
+                    <Grid item sm = {12}  md = {6} className= "work_exp">
+                    <TimeLine title="Work Experience" icon = {<WorkIcon />}></TimeLine>
+                    </Grid>
 
 
                  {/*Education */}
