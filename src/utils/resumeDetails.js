@@ -80,7 +80,7 @@ export default {
         {
             title : 'Bachelor(B.tech)',
             date: 'July-2019 - Present',
-            desc: 'I am a 2nd year IT student. I secured 8.5 CGPA in my 2nd year. I have started doing development stuffs from mid of my 1st year and development facinated me a lot.',
+            desc: 'I am a 2nd year IT student. I secured 8.5 CGPA in my 3rd semester. I have started doing development stuffs from mid of my 1st year and development facinated me a lot.',
         },
        
     ],
