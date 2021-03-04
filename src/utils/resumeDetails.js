@@ -52,12 +52,12 @@ export default {
         {
             title : 'Web & Android Developer & UI/UX Designer(GFG-KIIT)',
             date: 'December-2020 - Present',
-            desc: 'I am responsible for developing the website and integratingit with automation tools like Integromat , Automate.io ,Zapier , Mailchimp,etc',
+            desc: 'I am responsible for making projects  on the above mentioned domains and helping others in the club with the same. I am also responsible for leading some of the major events which the club puts forward for all the students and developers around the University.',
         },
         {
             title : 'Web Developer (A2D Web)',
             date: 'November-2020 - January-2021',
-            desc: 'I was responsibe for developing the companies website inthe give time period',
+            desc: 'I was responsibe for developing the companies website in the give time period',
         },
         {
             title : 'Web Developer (Kenisha Styles)',
