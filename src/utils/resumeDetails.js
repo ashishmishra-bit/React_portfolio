@@ -101,6 +101,47 @@ export default {
             desc: 'I gained the interest in UI/UX designing as I started with Front-End development and it always facinated me.',
             icon: <ShutterSpeedIcon />
         },
-    ]
+    ],
 
+    skills:[
+        {
+            title : "Front-End",
+            desc  : [
+                "ReactJs",
+                "JavaScript",
+                "Bootstrap",
+                "Materia UI",
+                "SAAS & Tailwind css",
+                "Wordpress"
+            ],
+        },
+        {
+            title : "Back-End",
+            desc : [
+                "Node.js",
+                "Java",
+                "Python",
+                "Django",
+                "Express.js"
+            ],
+        },
+        {
+            title : "Databases",
+            desc : [
+                "Firebase",
+                "MySQL",
+                "MongoDB",
+                "NoSQL"               
+            ],
+        },
+        {
+            title : "Graphics",
+            desc : [
+                "Figma",
+                "Adobe XD",
+                "Adobe Photoshop",
+                "Adobe illustrator"               
+            ],
+        },
+    ],
 };
