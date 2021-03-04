@@ -24,6 +24,7 @@ import {
 
 import resumeDetails from "../../utils/resumeDetails"
 import CustomButton  from "../Button/Button"
+import "./Header.css";
 
 const Header = (props) => {
     const pathName = props?.location?.pathname;
@@ -38,8 +39,8 @@ const Header = (props) => {
 
             <Navbar.Collapse>
                 <Nav>
-                    <Nav.Link as={NavLink} to="/" classname={pathName == '/' ? 'header_link_active' : "header_link"}>Resume</Nav.Link>
-                    <Nav.Link as={NavLink} to="/portfolio" classname={pathName == '/portfolio' ? 'header_link_active' : "header_link"}>Portfolio</Nav.Link>
+                    <Nav.Link as={NavLink} to="/" classname={pathName == '/' ? 'header_link_active' : 'header_link'}>Resume</Nav.Link>
+                    <Nav.Link as={NavLink} to="/portfolio" classname={pathName == '/portfolio' ? 'header_link_active' : 'header_link'}>Portfolio</Nav.Link>
                 </Nav>
                 <div className="header_right">
                 {Object.keys(resumeDetails.social).map(key => (
@@ -52,4 +53,4 @@ const Header = (props) => {
     )
 }
 
-export default Header
+export default withRouter(Header);
