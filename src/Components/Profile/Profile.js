@@ -60,7 +60,7 @@ const Profile = () => {
 
                 </TimeLine>
                 <div className = "button_container">
-                <a href="https://drive.google.com/file/d/1-8FxG2Fsw6qgwTkq1lc-ZGC1tWXOjNWN/view" target="_blank"><CustomButton text = {'Download Resume'} icon = {<GetAppIcon />}  link = {""}/></a>
+                <a href="https://drive.google.com/file/d/1-8FxG2Fsw6qgwTkq1lc-ZGC1tWXOjNWN/view?usp=sharing" target="_blank"><CustomButton text = {'Download Resume'} icon = {<GetAppIcon />}  link = {""}/></a>
                 </div>                
                 
             </div>
