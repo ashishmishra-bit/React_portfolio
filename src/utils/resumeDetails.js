@@ -80,8 +80,21 @@ export default {
             desc: 'I am a 2nd year IT student. I secured 8.5 CGPA in my 2nd year. I have started doing development stuffs from mid of my 1st year and development facinated me a lot.',
         },
        
+    ],
+
+    services: [
+        {
+            title: 'Web Development',
+            desc: 'I have been developing scalable Website and Web Applications from past 1 year. I have Developed almost all type of websites.'
+        },
+        {
+            title: 'Android Development',
+            desc: 'I have been developing & learning Android Development from past 3-4 months. I have developed 2 Android Application',
+        },
+        {
+            title: 'UI / UX Designer',
+            desc: 'I gained the interest in UI/UX designing as I started with Front-End development and it always facinated me.',
+        },
     ]
-
-
 
 };
