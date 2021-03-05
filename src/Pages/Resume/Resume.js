@@ -114,13 +114,13 @@ const Resume = () => {
             <Grid container spacing={3} justify='space-between' className='section greybg pb_45'>
             {resumeDetails.skills.map(skills =>(
                 <Grid item xs={12} sm = {6} md={3}>
-                    <Paper elevation={0}>
+                    <Paper elevation={0} className = 'skill'>
                     <Typography variant = 'h6' className="skill_title">
                         {skills.title}
                     </Typography>
                     {skills.desc.map(descp => (
                         <Typography variant = 'body2' className = 'skill_desc'>
-                            <TimelineDot />
+                            <TimelineDot variant = {'outlined'} className = 'timeline_dot'/>
                             {descp}
                         </Typography>
                     ))}
