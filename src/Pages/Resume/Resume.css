@@ -21,3 +21,32 @@
     font-size: small !important;
     margin-top: 6px !important;
 }
+
+/*Services*/
+
+.service{
+    height:100% !important;
+    text-align: center !important;
+}
+.service .service_title{
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    /* line-height: 35px !important; */
+    text-align: center !important;
+    margin-top: 5px !important;
+    margin-bottom: 7px;
+}
+
+.service .service_desc{
+    color: #989898 !important;
+    border-color: var(--main-color) !important;
+    margin-left: 5px !important;
+    text-align: center !important;
+}
+.service_icon > .MuiSvgIcon-root{
+    font-size:46px !important;
+    margin-left: 0 !important;
+    font-weight: 300 !important;
+    color: darkslategray !important;
+    /* color: var(--main-color) !important; */
+}

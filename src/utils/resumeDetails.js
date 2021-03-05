@@ -93,7 +93,7 @@ export default {
         },
         {
             title: 'Android & Flutter Development',
-            desc: 'I have been developing & learning Android Development from past 3-4 months. I have developed 2 Android Application',
+            desc: 'I have been developing & learning Android Development from past 3-4 months. I have developed 3 Android Application',
             icon: <AndroidIcon />
         },
         {
