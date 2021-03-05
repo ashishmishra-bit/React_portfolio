@@ -6,7 +6,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LanguageIcon from '@material-ui/icons/Language';
-import AndroidIcon from '@material-ui/icons/Android';
+import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
 import ShutterSpeedIcon from '@material-ui/icons/ShutterSpeed';
 
 export default {
@@ -94,7 +94,7 @@ export default {
         {
             title: 'Android & Flutter Development',
             desc: 'I have been developing & learning Android Development from past 3-4 months. I have developed 3 Android Application',
-            icon: <AndroidIcon />
+            icon: <PhoneAndroidIcon  />
         },
         {
             title: 'UI / UX Designer',
