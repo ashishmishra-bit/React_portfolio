@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Container, Grid } from "@material-ui/core";
 
 import Profile from "./Components/Profile/Profile";
@@ -6,6 +7,7 @@ import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import Portfolio from "./Pages/Portfolio/Portfolio";
 import Resume from "./Pages/Resume/Resume";
+import Contact from "./Pages/Contact/Contact";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -28,6 +30,9 @@ function App() {
                             <Route path="/portfolio">
                                 <Portfolio />
                             </Route>
+                            <Route path="/contact">
+                            <Contact />
+                        </Route>
                             <Route path="/">
                                 {" "}
                                 <Resume />

@@ -41,6 +41,7 @@ const Header = (props) => {
                 <Nav className="header_left">
                     <Nav.Link as={NavLink} to="/" classname={pathName == '/' ? 'header_link_active' : 'header_link'}>Resume</Nav.Link>
                     <Nav.Link as={NavLink} to="/portfolio" classname={pathName == '/portfolio' ? 'header_link_active' : 'header_link'}>Portfolio</Nav.Link>
+                    <Nav.Link as={NavLink} to="/contact" classname={pathName == '/contact' ? 'header_link_active' : 'header_link'}>Contact</Nav.Link>
                 </Nav>
                 <div className="header_right">
                 {Object.keys(resumeDetails.social).map(key => (

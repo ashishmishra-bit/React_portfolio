@@ -17,6 +17,7 @@ export default {
     email : 'ashish.mishra52002@gmail.com',
     phone : '+91-8822161061',
     address : 'Guwahati , Assam',
+    address2: 'Pragati Nagar , Bylane-1 ,House-No. - 2 , Pin - 781171, Guwahat , Assam',
 
     social: {            
         LinkedIn:{
