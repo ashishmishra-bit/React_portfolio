@@ -10,6 +10,7 @@ import TimelineSeparator from "@material-ui/lab/TimelineSeparator";
 import TimelineConnector from "@material-ui/lab/TimelineConnector";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import TimelineDot from "@material-ui/lab/TimelineDot";
+import Paper from '@material-ui/core/Paper';
 
 import WorkIcon from '@material-ui/icons/Work';
 import SchoolIcon from '@material-ui/icons/School';
@@ -113,7 +114,17 @@ const Resume = () => {
             <Grid container spacing={3} justify='space-between' className='section greybg pb_45'>
             {resumeDetails.skills.map(skills =>(
                 <Grid item xs={12} sm = {6} md={3}>
-
+                    <Paper elevation={0}>
+                    <Typography variant = 'h6' className="skill_title">
+                        {skills.title}
+                    </Typography>
+                    {skills.desc.map(descp => (
+                        <Typography variant = 'body2' className = 'skill_desc'>
+                            <TimelineDot />
+                            {descp}
+                        </Typography>
+                    ))}
+                    </Paper>
                 </Grid>
             ))}
             
