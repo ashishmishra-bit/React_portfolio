@@ -1,7 +1,10 @@
 // import React from 'react'
 import './Contact.css';
 import React, { useState, useEffect } from "react";
+import { Container, Grid } from "@material-ui/core";
+import { Typography } from "@material-ui/core";
 import { db } from "../../firebase";
+import resumeDetails from '../../utils/resumeDetails';
 const Contact = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -35,7 +38,12 @@ const Contact = () => {
 
     return (
         <form className="form" onSubmit={handleSubmit}>
-            <h1>Contact Me 🖐</h1>
+        <Grid container className='section pb_45'>
+        <Grid item className='section_title mb_20'>
+            <span></span>
+            <h6 className='section_title_text'>Contact Me</h6>
+        </Grid>       
+    </Grid>
 
             <label>Name</label>
             <input
@@ -65,6 +73,7 @@ const Contact = () => {
                 Submit
       </button>
         </form>
+        
     );
 };
 

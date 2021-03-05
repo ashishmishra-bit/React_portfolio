@@ -2,12 +2,13 @@ import firebase from "firebase";
 
 
 var firebaseApp = firebase.initializeApp({
-    apiKey: "AIzaSyBA6PR5gNeLrF2JIDklt8fTK90eZJSHK0o",
-    authDomain: "react-portfolio-53d91.firebaseapp.com",
-    projectId: "react-portfolio-53d91",
-    storageBucket: "react-portfolio-53d91.appspot.com",
-    messagingSenderId: "771706007830",
-    appId: "1:771706007830:web:38dfd10031d0c5dda6e037"
+  apiKey: "AIzaSyDQSBoBl7SxjGsA0WFEprxd2P76KFPQMdI",
+  authDomain: "react-portfolio-79ac2.firebaseapp.com",
+  projectId: "react-portfolio-79ac2",
+  storageBucket: "react-portfolio-79ac2.appspot.com",
+  messagingSenderId: "679660914835",
+  appId: "1:679660914835:web:0906713a6e710f8da3a566"
+
   });
   
   var db = firebaseApp.firestore();

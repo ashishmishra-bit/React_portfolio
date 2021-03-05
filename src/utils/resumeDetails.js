@@ -148,4 +148,74 @@ export default {
             ],
         },
     ],
+
+    projects : [
+        {
+            tag : 'webapplication',
+            images : './assets/portfolio/notes.png',
+            title : 'PHP Notes Application',
+            desc : 'This is the notes application coded in php.',
+            links : [
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <GitHubIcon />
+                },
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <LanguageIcon />
+                },
+            ]
+        },
+
+        {
+            tag : 'Websites',
+            images : './assets/portfolio/notes.png',
+            title : 'PHP Notes Application',
+            desc : 'This is the notes application coded in php.',
+            links : [
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <GitHubIcon />
+                },
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <LanguageIcon />
+                },
+            ]
+        },
+
+        {
+            tag : 'Android',
+            images : './assets/portfolio/notes.png',
+            title : 'PHP Notes Application',
+            desc : 'This is the notes application coded in php.',
+            links : [
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <GitHubIcon />
+                },
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <LanguageIcon />
+                },
+            ]
+        },
+
+        {
+            tag : 'UI / UX',
+            images : './assets/portfolio/notes.png',
+            title : 'PHP Notes Application',
+            desc : 'This is the notes application coded in php.',
+            links : [
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <GitHubIcon />
+                },
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <LanguageIcon />
+                },
+            ]
+        }
+    ],
 };
