@@ -25,11 +25,21 @@ const Portfolio = () => {
                 <Tab label='All' value = 'All' className={tabValue =='All' ? 'customTabs_item active' : 'customTabs_item'} />
 
 
-                {[...new Set(resumeDetails.projects.map(item =>item.tag))]}
+                {[...new Set(resumeDetails.projects.map(item =>item.tag))].map(tag =>(
+                    <Tab label = {tag} value = {tag} className={tabValue =='All' ? 'customTabs_item active' : 'customTabs_item'} />
+                ))}
 
                 </Tabs>
             </Grid>
-        </Grid>
+      
+      
+      
+      
+            {/*Projects*/}
+
+            
+            
+            </Grid>
       
     );
 };
