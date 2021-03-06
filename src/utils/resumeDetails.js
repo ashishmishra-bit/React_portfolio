@@ -152,8 +152,8 @@ export default {
     projects : [
         {
             tag : 'webapplication',
-            images : './assets/portfolio/notes.png',
-            title : 'PHP Notes Application',
+            images : '../../assets/portfolio/notes.png',
+            title : 'Beefresh Groceries',
             desc : 'This is the notes application coded in php.',
             links : [
                 {
@@ -169,7 +169,7 @@ export default {
 
         {
             tag : 'Websites',
-            images : './assets/portfolio/notes.png',
+            images : '../../assets/portfolio/notes.png',
             title : 'PHP Notes Application',
             desc : 'This is the notes application coded in php.',
             links : [
@@ -186,7 +186,7 @@ export default {
 
         {
             tag : 'Android',
-            images : './assets/portfolio/notes.png',
+            images : '../../assets/portfolio/notes.png',
             title : 'PHP Notes Application',
             desc : 'This is the notes application coded in php.',
             links : [
@@ -203,7 +203,7 @@ export default {
 
         {
             tag : 'UI / UX',
-            images : './assets/portfolio/notes.png',
+            images : '../../assets/portfolio/notes.png',
             title : 'PHP Notes Application',
             desc : 'This is the notes application coded in php.',
             links : [

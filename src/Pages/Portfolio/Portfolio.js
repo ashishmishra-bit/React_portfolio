@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Tabs, Tab, Typography } from '@material-ui/core';
+import { Tabs, Tab, Typography, Card, CardActionArea, CardMedia, CardContent, Grow } from '@material-ui/core';
 import './Portfolio.css';
 import resumeDetails from '../../utils/resumeDetails';
 import { Container, Grid } from "@material-ui/core";
@@ -37,7 +37,29 @@ const Portfolio = () => {
       
             {/*Projects*/}
 
-            
+            <Grid container spacing = {2}>
+                {resumeDetails.projects.map(project => (
+                    <>
+                    {tabValue == project.tag || tabValue == 'All' ? (
+                        <Grid item>
+                        <Grow in timeout={2000}>
+                            <Card className = "CoustomCard" onClick={() => console.log('Hello')}>
+                                <CardActionArea>
+                                    <CardMedia className="coustomCard_image" image = {project.images} title={project.title} />
+                                    <CardContent>
+                                        <Typography>{project.title}</Typography>
+                                        <Typography>{project.desc}</Typography>
+                                    </CardContent>
+                                    
+                                </CardActionArea>
+                            </Card>
+                            </Grow>
+                        </Grid>
+                    ) : null}
+                 
+                    </>
+                ))}
+            </Grid>
             
             </Grid>
       
