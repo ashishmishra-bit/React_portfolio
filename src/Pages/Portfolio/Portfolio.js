@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Tabs, Tab, Typography, Card, CardActionArea, CardMedia, CardContent, Grow } from '@material-ui/core';
+import { Tabs, Tab, Typography, Card, CardActionArea, CardMedia, CardContent, Grow, Dialog, DialogTitle, DialogContent, DialogActions } from '@material-ui/core';
 import './Portfolio.css';
 import resumeDetails from '../../utils/resumeDetails';
 import { Container, Grid } from "@material-ui/core";
@@ -8,6 +8,10 @@ import { Container, Grid } from "@material-ui/core";
 const Portfolio = () => {
 
     const [tabValue, settabValue] = useState("All");
+
+    const [projectDialog , setProjectDialog] = useState(false)
+
+  
 
     return (
       
@@ -43,12 +47,12 @@ const Portfolio = () => {
                     {tabValue == project.tag || tabValue == 'All' ? (
                         <Grid item>
                         <Grow in timeout={2000}>
-                            <Card className = "CoustomCard" onClick={() => console.log('Hello')}>
+                            <Card className = "CoustomCard" onClick={() => setProjectDialog(project)}>
                                 <CardActionArea>
                                     <CardMedia className="coustomCard_image" image = {project.images} title={project.title} />
                                     <CardContent>
-                                        <Typography>{project.title}</Typography>
-                                        <Typography>{project.desc}</Typography>
+                                        <Typography className = "coustomCard_title">{project.title}</Typography>
+                                        <Typography variant = 'body2' className = "coustomCard_desc">{project.caption}</Typography>
                                     </CardContent>
                                     
                                 </CardActionArea>
@@ -60,6 +64,18 @@ const Portfolio = () => {
                     </>
                 ))}
             </Grid>
+            <Dialog open={projectDialog} onClick={() => setProjectDialog(false)}>
+            <DialogTitle  onClick={() => setProjectDialog(false)}>{projectDialog.title}</DialogTitle>
+            <img src="" alt ="" />
+            <DialogContent>
+               {projectDialog.desc}
+            </DialogContent>
+            <DialogActions>
+               {projectDialog?.links?.map(link => (
+                   <a href = {link.link} target ="_blank">{link.icon}</a>
+               ))}
+            </DialogActions>
+        </Dialog>
             
             </Grid>
       

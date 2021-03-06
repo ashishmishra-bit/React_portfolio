@@ -154,6 +154,7 @@ export default {
             tag : 'webapplication',
             images : '../../assets/portfolio/notes.png',
             title : 'Beefresh Groceries',
+            caption : 'A short Description about project',
             desc : 'This is the notes application coded in php.',
             links : [
                 {
@@ -171,6 +172,7 @@ export default {
             tag : 'Websites',
             images : '../../assets/portfolio/notes.png',
             title : 'PHP Notes Application',
+            caption : 'A short Description about project',
             desc : 'This is the notes application coded in php.',
             links : [
                 {
@@ -188,6 +190,7 @@ export default {
             tag : 'Android',
             images : '../../assets/portfolio/notes.png',
             title : 'PHP Notes Application',
+            caption : 'A short Description about project',
             desc : 'This is the notes application coded in php.',
             links : [
                 {
@@ -205,6 +208,7 @@ export default {
             tag : 'UI / UX',
             images : '../../assets/portfolio/notes.png',
             title : 'PHP Notes Application',
+            caption : 'A short Description about project',
             desc : 'This is the notes application coded in php.',
             links : [
                 {
