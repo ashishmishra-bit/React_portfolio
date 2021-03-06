@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Contact.css";
-// import MapContainer from "../../Components/Maps/Maps";
+
 import { db } from "../../firebase";
 import ContactsIcon from "@material-ui/icons/Contacts";
 import TimeLine from "../../Components/Timeline/TimeLine";
@@ -12,7 +12,7 @@ import TimelineConnector from "@material-ui/lab/TimelineConnector";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import TimelineDot from "@material-ui/lab/TimelineDot";
 import { Container, Grid } from "@material-ui/core";
-// import ContactsIcon from '@material-ui/icons/Contacts';
+
 
 const Contact = () => {
     const [name, setName] = useState("");

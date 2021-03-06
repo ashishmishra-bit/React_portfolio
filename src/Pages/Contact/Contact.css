@@ -66,11 +66,6 @@ input{
   width: 350px !important;
 }
 
-.mt_50{
-  margin-top: 50px !important;
-
-}
-
 
 .section_title-contact{
   position:relative;
@@ -112,92 +107,7 @@ input{
   height:300px !important;
 }
 
-/* about me */
-.aboutme_text{
-  color: darkslategray;
-  font: smaller;
-  line-height:32px !important;
-  white-space:pre-line;
-  margin-top:30px !important;
-}
-.work_exp{
-  margin-top:30px !important;
-}
-.resume_timeline .timeline_content .timeline_title{
-  font-size: 16px !important;
-  font-weight:500 !important;
-}
-.resume_timeline .timeline_content .timeline_date{
-  color: darkslategray;
-}
-.resume_timeline .timeline_content .timeline_desc{
-  color: darkslategray !important;
-  font-size: small !important;
-  margin-top: 6px !important;
-}
 
-/*Services*/
-
-.service{
-  height:100% !important;
-  text-align: center !important;
-}
-.service .service_title{
-  font-size: 16px !important;
-  font-weight: 500 !important;
-  /* line-height: 35px !important; */
-  text-align: center !important;
-  margin-top: 5px !important;
-  margin-bottom: 7px;
-}
-
-.service .service_desc{
-  color: #989898 !important;
-  border-color: var(--main-color) !important;
-  margin-left: 5px !important;
-  text-align: center !important;
-}
-.service_icon > .MuiSvgIcon-root{
-  font-size:46px !important;
-  margin-left: 0 !important;
-  font-weight: 300 !important;
-  color: darkslategray !important;
-  /* color: var(--main-color) !important; */
-}
-
-/*skills*/
-
-.skill{
-  border-radius: 8px !important;
-  padding: 20px !important;
-  box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08) !important;
-  min-height: 186px !important;
-  height:100% !important;
-}
-.skill .skill_title {
-  font-size: 14px !important;
-  font-weight: 500 !important;
-  line-height: 35px !important;
-}
-.skill .skill_desc{
-  display: flex !important;
-  align-items: center !important;
-  color: #989898 !important;
-  font-weight: 400 !important;
-  line-height:18px !important;
-}
-.skill .skill_desc .timeline_dot{
-  border-color: var(--main-color) !important;
-  padding: 2px !important;
-  margin-right: 5px !important;
-}
-.section{
-  padding-right: 30px !important;
-  padding-left: 30px !important;
-}
-/* .timeline .timeline_dots_header{
-  display: none !important;
-} */
 
 @media (max-width:1300px){
   input{
@@ -237,13 +147,7 @@ input{
   margin-top: 20px !important;
 }
 
-@media (max-width:940px){
-  iframe {
-    align-items: center !important;
-    width: 500px !important;
-    height:300px !important;
-  }
-}
+
 
 @media (max-width:580px){
   iframe {
@@ -253,6 +157,24 @@ input{
   }
 }
 
-/* .MuiGrid-item{
-  margin-top: -10px !important;
-} */
+@media (max-width:1280px){
+  iframe {
+    align-items: center !important;
+    width: 580px !important;
+    height:300px !important;
+  }
+}
+@media (max-width:990px){
+  iframe {
+    align-items: center !important;
+    width: 500px !important;
+    height:300px !important;
+  }
+}
+@media (max-width:958px){
+  iframe {
+    align-items: center !important;
+    width: 500px !important;
+    height:300px !important;
+  }
+}
