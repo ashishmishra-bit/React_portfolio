@@ -35,3 +35,36 @@
 .coustomCard .coustomCard_caption{
     color: darkslategray !important;
 }
+
+.projectDialog{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    max-width: 800px !important;
+}
+.projectDialog .projectDialog_image{
+    max-height: 300px !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    object-position: center center !important;
+}
+.projectDialog .projectDialog_desc{
+    margin-top: 10px !important;
+}
+.projectDialog .projectDialog_actions{
+    justify-content: center !important;
+    margin-bottom: 10px !important;
+}
+.projectDialog .projectDialog_icon{
+    color: darkslategray !important;
+    margin: 0px 12px !important;
+    cursor: pointer;
+}
+.projectDialog .projectDialog_icon:hover{
+    color: var(--main-color) !important;
+}
+.projectDialog .projectDialog_icon > .MuiSvgIcon-root {
+    font-size:30px !important;
+}
+
+

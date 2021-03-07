@@ -104,14 +104,14 @@ const Portfolio = () => {
                     </>
                 ))}
             </Grid>
-            <Dialog
+            <Dialog 
                 open={projectDialog}
                 onClick={() => setProjectDialog(false)}
-            >
+            className = 'projectDialog' fullWidth>
                 <DialogTitle onClick={() => setProjectDialog(false)}>
                     {projectDialog.title}
                 </DialogTitle>
-                <img src="" alt="" className="projectDialog_image" />
+                <img src={projectDialog.image} alt="" className="projectDialog_image" />
                 <DialogContent>
                     <Typography className="projectDialog_desc">
                         {projectDialog.desc}
