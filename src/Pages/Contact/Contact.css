@@ -23,7 +23,7 @@
 }
 
 .heading-contact>h6{
-  margin-top:40px !important;
+  margin-top:10px !important;
   font-size: 17px !important;
   
 }
@@ -51,7 +51,7 @@
 
 .heading-contact{
   margin-left: 30px !important;
-  margin-top: -30px !important;
+  margin-top: 10px !important;
 }
 
 input{
@@ -65,6 +65,7 @@ input{
   margin-top: 25px !important;
   width: 350px !important;
 }
+
 
 
 .section_title-contact{
@@ -107,6 +108,29 @@ input{
   height:300px !important;
 }
 
+/* about me */
+.aboutme_text{
+  color: darkslategray;
+  font: smaller;
+  line-height:32px !important;
+  white-space:pre-line;
+  margin-top:30px !important;
+}
+.work_exp{
+  margin-top:30px !important;
+}
+.resume_timeline .timeline_content .timeline_title{
+  font-size: 16px !important;
+  font-weight:500 !important;
+}
+.resume_timeline .timeline_content .timeline_date{
+  color: darkslategray;
+}
+.resume_timeline .timeline_content .timeline_desc{
+  color: darkslategray !important;
+  font-size: small !important;
+  margin-top: 6px !important;
+}
 
 
 @media (max-width:1300px){
@@ -115,6 +139,42 @@ input{
   }
   .input-message{
     width: 250px  !important;
+  }
+}
+
+@media (max-width:955px){
+  input{
+    width:500px !important;
+  }
+  .input-message{
+    width: 500px  !important;
+  }
+  .timeline .timeline_dots_header{
+    /* align-items: center !important; */
+    margin-left: 200px !important;
+  }
+  .contact-form > button{
+    margin-left: 200px !important;
+    
+  }
+  .heading-contact{
+    margin-left: 200px !important;
+  }
+
+}
+
+
+@media (max-width:710px){
+  .timeline .timeline_dots_header{
+    /* align-items: center !important; */
+    margin-left: 150px !important;
+  }
+}
+
+@media (max-width:610px){
+  .timeline .timeline_dots_header{
+    /* align-items: center !important; */
+    margin-left: 50px !important;
   }
 }
 
@@ -137,6 +197,48 @@ input{
     width: 200px  !important;
     margin-left:20px !important;
   }
+
+  input{
+    width:350px !important;
+  }
+  .input-message{
+    width: 350px  !important;
+  }
+}
+
+
+@media (max-width:442px){
+  input{
+    width:250px !important;
+  }
+  .input-message{
+    width:250px  !important;
+  }
+  .timeline .timeline_dots_header{
+    /* align-items: center !important; */
+    margin-left: 0px !important;
+  }
+}
+
+@media (max-width:360px){
+  input{
+    width:200px !important;
+  }
+  .input-message{
+    width:200px  !important;
+  }
+  .timeline .timeline_dots_header{
+    /* align-items: center !important; */
+    margin-left: 0px !important;
+  }
+  .heading-contact{
+    margin-left:0px !important;
+  }
+
+  .contact-form > button{
+    margin-left:0px !important;
+
+  }
 }
 
 .map-sect .map-frame{
@@ -147,16 +249,6 @@ input{
   margin-top: 20px !important;
 }
 
-
-
-@media (max-width:580px){
-  iframe {
-    align-items: center !important;
-    width: 250px !important;
-    height:200px !important;
-  }
-}
-
 @media (max-width:1280px){
   iframe {
     align-items: center !important;
@@ -164,17 +256,62 @@ input{
     height:300px !important;
   }
 }
-@media (max-width:990px){
+
+
+
+@media (max-width:1000px){
   iframe {
     align-items: center !important;
-    width: 500px !important;
+    width: 550px !important;
     height:300px !important;
   }
 }
-@media (max-width:958px){
+
+
+@media (max-width:959px){
   iframe {
     align-items: center !important;
-    width: 500px !important;
+    width: 750px !important;
     height:300px !important;
+  }
+}
+
+@media (max-width:835px){
+  iframe {
+    align-items: center !important;
+    width: 600px !important;
+    height:300px !important;
+  }
+}
+
+@media (max-width:680px){
+  iframe {
+    align-items: center !important;
+    width: 450px !important;
+    height:300px !important;
+  }
+}
+
+@media (max-width:515px){
+  iframe {
+    align-items: center !important;
+    width: 300px !important;
+    height:200px !important;
+  }
+}
+
+@media (max-width:365px){
+  iframe {
+    align-items: center !important;
+    width: 250px !important;
+    height:200px !important;
+  }
+}
+
+@media (max-width:315px){
+  iframe {
+    align-items: center !important;
+    width: 200px !important;
+    height:180px !important;
   }
 }

@@ -1,4 +1,37 @@
-.section{
+/* .section{
     padding-right: 30px !important;
     padding-left: 30px !important;
+} */
+
+
+.coustom_tabs .active{
+    color: var(--main-color) !important;
+}
+.coustom_tabs .customTabs_item{
+    /* padding:0px !important; */
+    min-width: 0px !important;
+    margin-right: 20px !important;
+    text-transform: inherit !important;
+    font-size: 14px !important;
+    font-weight:400 !important;
+    outline-width: 0px !important;
+}
+
+.coustomCard {
+    height:100% !important;    
+    max-width: 350px !important;
+    box-shadow: 0px 0px 48px 0px rgba(4,6,4,0.08);
+    border-radius:5px !important;
+    overflow:hidden !important;
+    outline-width:0 !important;
+}
+.coustomCard .coustomCard_image{
+    height:140px !important
+}
+.coustomCard .coustomCard_title{
+    font-weight: 900 !important;
+    
+}
+.coustomCard .coustomCard_caption{
+    color: darkslategray !important;
 }

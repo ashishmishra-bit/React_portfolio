@@ -1,4 +1,5 @@
 import React from "react";
+import Port from "../assets/portfolio/notes.png";
 
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -152,7 +153,7 @@ export default {
     projects : [
         {
             tag : 'webapplication',
-            images : '../../assets/portfolio/notes.png',
+            images : Port,
             title : 'Beefresh Groceries',
             caption : 'A short Description about project',
             desc : 'This is the notes application coded in php.',
@@ -170,7 +171,7 @@ export default {
 
         {
             tag : 'Websites',
-            images : '../../assets/portfolio/notes.png',
+            images : Port,
             title : 'PHP Notes Application',
             caption : 'A short Description about project',
             desc : 'This is the notes application coded in php.',
@@ -188,7 +189,7 @@ export default {
 
         {
             tag : 'Android',
-            images : '../../assets/portfolio/notes.png',
+            images : Port,
             title : 'PHP Notes Application',
             caption : 'A short Description about project',
             desc : 'This is the notes application coded in php.',
@@ -206,7 +207,7 @@ export default {
 
         {
             tag : 'UI / UX',
-            images : '../../assets/portfolio/notes.png',
+            images : Port,
             title : 'PHP Notes Application',
             caption : 'A short Description about project',
             desc : 'This is the notes application coded in php.',
