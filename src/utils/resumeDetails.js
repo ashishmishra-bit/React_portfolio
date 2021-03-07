@@ -1,6 +1,4 @@
 import React from "react";
-import Port from "../assets/portfolio/notes.png";
-
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -9,6 +7,11 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import LanguageIcon from '@material-ui/icons/Language';
 import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
 import ShutterSpeedIcon from '@material-ui/icons/ShutterSpeed';
+
+
+
+import Port from "../assets/portfolio/notes.png";
+import Port2 from "../assets/portfolio/Kenisha Styles.png";
 
 export default {
     name : 'Ashih Kumar Mishra',
@@ -171,7 +174,7 @@ export default {
 
         {
             tag : 'Websites',
-            images : Port,
+            images : Port2,
             title : 'PHP Notes Application',
             caption : 'A short Description about project',
             desc : 'This is the notes application coded in php.',
@@ -207,7 +210,7 @@ export default {
 
         {
             tag : 'UI / UX',
-            images : Port,
+            images : Port2,
             title : 'PHP Notes Application',
             caption : 'A short Description about project',
             desc : 'This is the notes application coded in php.',
