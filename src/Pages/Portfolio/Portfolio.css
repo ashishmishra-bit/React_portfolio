@@ -36,12 +36,7 @@
     color: darkslategray !important;
 }
 
-.projectDialog{
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    max-width: 800px !important;
-}
+
 .projectDialog .projectDialog_image{
     max-height: 300px !important;
     width: 100% !important;
