@@ -12,6 +12,13 @@ import ShutterSpeedIcon from '@material-ui/icons/ShutterSpeed';
 
 import Port from "../assets/portfolio/notes.png";
 import Port2 from "../assets/portfolio/Kenisha Styles.png";
+import Port3 from "../assets/portfolio/befresh.png";
+import Port4 from "../assets/portfolio/django-ecomm.png";
+import Port5 from "../assets/portfolio/chat.png";
+import Port6 from "../assets/portfolio/zoom-clone.png";
+import Port7 from "../assets/portfolio/blog2.png";
+import Port8 from "../assets/portfolio/freelancecommunitee.com.png";
+import Port9 from "../assets/portfolio/a2d.png";
 
 export default {
     name : 'Ashih Kumar Mishra',
@@ -85,7 +92,7 @@ export default {
         {
             title : 'Bachelor(B.tech)',
             date: 'July-2019 - Present',
-            desc: 'I am a 2nd year IT student. I secured 8.5 CGPA in my 3rd semester. I have started doing development stuffs from mid of my 1st year and development facinated me a lot.',
+            desc: 'I am a 2nd year IT student , currently stidying in KIIT. I secured 8.5 CGPA in my 3rd semester. I have started doing development stuffs from mid of my 1st year and development facinated me a lot.',
         },
        
     ],
@@ -155,9 +162,9 @@ export default {
 
     projects : [
         {
-            tag : 'webapplication',
+            tag : 'Websites',
             images : Port,
-            title : 'Beefresh Groceries',
+            title : 'Notes Application',
             caption : 'A short Description about project',
             desc : 'This is the notes application coded in php.',
             links : [
@@ -175,8 +182,127 @@ export default {
         {
             tag : 'Websites',
             images : Port2,
-            title : 'PHP Notes Application',
-            caption : 'A short Description about project',
+            title : 'Kenisha Styles',
+            caption : 'A web site for the Start Up',
+            desc : 'This is the notes application coded in php.',
+            links : [
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <GitHubIcon />
+                },
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <LanguageIcon />
+                },
+            ]
+        },
+        {
+            tag : 'Websites',
+            images : Port3,
+            title : 'Be-Fresh Groceries',
+            caption : 'A web site for the Start Up',
+            desc : 'This is the notes application coded in php.',
+            links : [
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <GitHubIcon />
+                },
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <LanguageIcon />
+                },
+            ]
+        },
+        {
+            tag : 'Websites',
+            images : Port4,
+            title : 'Django Ecommerce Website',
+            caption : 'A web site for the Start Up',
+            desc : 'This is the notes application coded in php.',
+            links : [
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <GitHubIcon />
+                },
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <LanguageIcon />
+                },
+            ]
+        },
+        {
+            tag : 'Websites',
+            images : Port5,
+            title : 'PHP Chat Application',
+            caption : 'A web site for the Start Up',
+            desc : 'This is the notes application coded in php.',
+            links : [
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <GitHubIcon />
+                },
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <LanguageIcon />
+                },
+            ]
+        },
+        {
+            tag : 'Websites',
+            images : Port6,
+            title : 'Zoom Clone',
+            caption : 'A web site for the Start Up',
+            desc : 'This is the notes application coded in php.',
+            links : [
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <GitHubIcon />
+                },
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <LanguageIcon />
+                },
+            ]
+        },
+        {
+            tag : 'Websites',
+            images : Port7,
+            title : 'Blog Template',
+            caption : 'A web site for the Start Up',
+            desc : 'This is the notes application coded in php.',
+            links : [
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <GitHubIcon />
+                },
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <LanguageIcon />
+                },
+            ]
+        },
+        {
+            tag : 'Websites',
+            images : Port8,
+            title : 'freelancecommunity.com',
+            caption : 'A web site for the Start Up',
+            desc : 'This is the notes application coded in php.',
+            links : [
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <GitHubIcon />
+                },
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <LanguageIcon />
+                },
+            ]
+        },
+        {
+            tag : 'Websites',
+            images : Port9,
+            title : 'A2D Web',
+            caption : 'A web site for the Start Up',
             desc : 'This is the notes application coded in php.',
             links : [
                 {
