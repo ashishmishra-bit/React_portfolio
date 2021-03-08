@@ -1,5 +1,5 @@
 .contact-form > button {
-  /* padding: 20px !important; */
+  
   border: none !important;
   background-color: #ffc500;
   font-weight: 500 !important;
@@ -108,29 +108,6 @@ input{
   height:300px !important;
 }
 
-/* about me */
-.aboutme_text{
-  color: darkslategray;
-  font: smaller;
-  line-height:32px !important;
-  white-space:pre-line;
-  margin-top:30px !important;
-}
-.work_exp{
-  margin-top:30px !important;
-}
-.resume_timeline .timeline_content .timeline_title{
-  font-size: 16px !important;
-  font-weight:500 !important;
-}
-.resume_timeline .timeline_content .timeline_date{
-  color: darkslategray;
-}
-.resume_timeline .timeline_content .timeline_desc{
-  color: darkslategray !important;
-  font-size: small !important;
-  margin-top: 6px !important;
-}
 
 
 @media (max-width:1300px){

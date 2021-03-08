@@ -4,7 +4,7 @@
     padding:0 22px 0 0 !important;
     border-radius:6px !important;
     box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.13) !important;
-    /* margin-right: 100px !important; */
+    
 }
 .header .header_navlink{
     padding:0 !important;
@@ -14,18 +14,13 @@
     color: darkslategray !important;
 }
 
-/* .header .header_link_active{
-    font-weight: 900 !important;
-    font-weight: bold !important;
-    color: var(--main-color) !important;
-} */
+
 .navbar-light .navbar-nav .nav-link:hover{
     color: var(--main-color) !important;
-    /* font-weight:bold !important; */
+    
 }
 .navbar-light .navbar-nav .nav-link:focus{
-    font-weight: 700 !important;
-    /* font-weight: bold !important; */
+    font-weight: 700 !important;    
     color: var(--main-color) !important;}
 
 .header .header_home{

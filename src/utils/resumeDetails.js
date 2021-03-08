@@ -48,12 +48,7 @@ export default {
             link: 'https://www.linkedin.com/in/ashish-kumar-mishra-91366b193',
             text: '@ashish-kumar-mishra',
             icon: <LinkedInIcon />,
-        },
-        // Github:{
-        //     link : 'https://github.com/ashishmishra-bit',
-        //     text : 'ashishmishra-bit',
-        //     icon : <GitHubIcon />,
-        // },
+        },       
         Instagram: {
             link: 'https://www.instagram.com/a_s_h_i_s_h_mishra/',
             text: 'a_s_h_i_s_h_mishra',
