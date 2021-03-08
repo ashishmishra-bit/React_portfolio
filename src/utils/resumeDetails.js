@@ -19,6 +19,9 @@ import Port6 from "../assets/portfolio/zoom-clone.png";
 import Port7 from "../assets/portfolio/blog2.png";
 import Port8 from "../assets/portfolio/freelancecommunitee.com.png";
 import Port9 from "../assets/portfolio/a2d.png";
+import Port10 from "../assets/portfolio/whatsapp-clone.png";
+import Port11 from "../assets/portfolio/musicplayer.png";
+import Port12 from "../assets/portfolio/billing.png";
 
 export default {
     name : 'Ashih Kumar Mishra',
@@ -315,7 +318,41 @@ export default {
                 },
             ]
         },
+        {
+            tag : 'Websites',
+            images : Port10,
+            title : 'WhatsApp Clone',
+            caption : 'A web site for the Start Up',
+            desc : 'This is the notes application coded in php.',
+            links : [
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <GitHubIcon />
+                },
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <LanguageIcon />
+                },
+            ]
+        },
 
+        {
+            tag : 'Android',
+            images : Port11,
+            title : 'Music Player APP',
+            caption : 'A short Description about project',
+            desc : 'This is the notes application coded in php.',
+            links : [
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <GitHubIcon />
+                },
+                {
+                    link : 'https://github.com/ashishmishra-bit',
+                    icon : <LanguageIcon />
+                },
+            ]
+        },
         {
             tag : 'Android',
             images : Port,
