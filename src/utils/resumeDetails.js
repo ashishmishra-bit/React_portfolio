@@ -173,11 +173,11 @@ export default {
             tag: 'Websites',
             images: Port,
             title: 'Notes Application',
-            caption: 'PHP Coded Chat Appllication',
-            desc: 'This is the PHP coded chat application that provides the unique id to every chat room created. I have used here MySql database from php my admin locally to connect and store the data entry.',
+            caption: 'PHP coded CRUD Application',
+            desc: 'Its a simple PHP project. Basically known as CRUD Application. It Use Bootstrap and Css for front-end design.',
             links: [
                 {
-                    link: 'https://github.com/ashishmishra-bit/ChatApp-PHP',
+                    link: 'https://github.com/ashishmishra-bit/',
                     icon: <GitHubIcon />
                 },
                 {
@@ -242,11 +242,11 @@ export default {
             tag: 'Websites',
             images: Port5,
             title: 'PHP Chat Application',
-            caption: 'A web site for the Start Up',
-            desc: 'This is the notes application coded in php.',
+            caption: 'PHP Coded Chat Appllication',
+            desc: 'This is the PHP coded chat application that provides the unique id to every chat room created. I have used here MySql database from php my admin locally to connect and store the data entry.',
             links: [
                 {
-                    link: 'https://github.com/ashishmishra-bit',
+                    link: 'https://github.com/ashishmishra-bit/ChatApp-PHP',
                     icon: <GitHubIcon />
                 },
                 {
