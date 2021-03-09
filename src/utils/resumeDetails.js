@@ -100,7 +100,7 @@ export default {
         {
             title: 'Bachelor(B.tech)',
             date: 'July-2019 - Present',
-            desc: 'I am a 2nd year IT student , currently stidying in KIIT. I secured 8.5 CGPA in my 3rd semester. I have started doing development stuffs from mid of my 1st year and development facinated me a lot.',
+            desc: 'I am a 2nd year IT student , currently studying in KIIT. I secured 8.5 CGPA in my 3rd semester. I have started doing development stuffs from mid of my 1st year and development facinated me a lot.',
         },
 
     ],
@@ -173,11 +173,11 @@ export default {
             tag: 'Websites',
             images: Port,
             title: 'Notes Application',
-            caption: 'A short Description about project',
-            desc: 'This is the notes application coded in php.',
+            caption: 'PHP Coded Chat Appllication',
+            desc: 'This is the PHP coded chat application that provides the unique id to every chat room created. I have used here MySql database from php my admin locally to connect and store the data entry.',
             links: [
                 {
-                    link: 'https://github.com/ashishmishra-bit',
+                    link: 'https://github.com/ashishmishra-bit/ChatApp-PHP',
                     icon: <GitHubIcon />
                 },
                 {
@@ -199,7 +199,7 @@ export default {
                     icon: <GitHubIcon />
                 },
                 {
-                    link: 'https://github.com/ashishmishra-bit',
+                    link: 'https://www.kenishastyles.com/',
                     icon: <LanguageIcon />
                 },
             ]
