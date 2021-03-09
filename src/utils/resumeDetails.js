@@ -225,11 +225,11 @@ export default {
             tag: 'Websites',
             images: Port4,
             title: 'Django Ecommerce Website',
-            caption: 'A web site for the Start Up',
-            desc: 'This is the notes application coded in php.',
+            caption: 'Ecommerce Website Using Django',
+            desc: 'This is an Ecommerce website using Python framework Django and it has most of the features includind payment gateway integration with PayPal.The website is still under developement. It will be completed and hosted soon.',
             links: [
                 {
-                    link: 'https://github.com/ashishmishra-bit',
+                    link: 'https://github.com/ashishmishra-bit/Django_Ecomm',
                     icon: <GitHubIcon />
                 },
                 {
