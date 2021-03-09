@@ -192,7 +192,7 @@ export default {
             images: Port2,
             title: 'Kenisha Styles',
             caption: 'A web site for the Start Up',
-            desc: 'This is the notes application coded in php.',
+            desc: 'This was the website on which i have worked on as an Intern to this company. I have embeded facebook page and pixel to this website through facebook developer API. It was a great experience with lots of mistake as it was my first work professionally.',
             links: [
                 {
                     link: 'https://github.com/ashishmishra-bit',
@@ -208,15 +208,15 @@ export default {
             tag: 'Websites',
             images: Port3,
             title: 'Be-Fresh Groceries',
-            caption: 'A web site for the Start Up',
-            desc: 'This is the notes application coded in php.',
+            caption: 'Online Grocery Store',
+            desc: 'This is the website for online grocery store , basically and online ecommerce website. It has support for firebase authentication and use MySql databse.',
             links: [
                 {
                     link: 'https://github.com/ashishmishra-bit',
                     icon: <GitHubIcon />
                 },
                 {
-                    link: 'https://github.com/ashishmishra-bit',
+                    link: 'https://www.befreshgroceries.com/',
                     icon: <LanguageIcon />
                 },
             ]
