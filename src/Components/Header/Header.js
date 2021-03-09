@@ -1,25 +1,18 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
-    Button,
-    Form,
-    FormControl,
+
     Nav,
     Navbar,
-    NavDropdown,
+  
 } from "react-bootstrap";
 
 import { link, NavLink, withRouter } from "react-router-dom";
 
 import {
-    HomeRounded,
-    SchoolRounded,
-    WorkRounded,
-    Facebook,
-    Twitter,
-    LinkedIn,
+    HomeRounded, 
     GitHub,
-    Telegram,
+
 } from "@material-ui/icons";
 
 import resumeDetails from "../../utils/resumeDetails"

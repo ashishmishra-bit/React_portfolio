@@ -35,7 +35,7 @@ import Port18 from "../assets/portfolio/nightcoversion.png";
 
 export default {
     name: 'Ashih Kumar Mishra',
-    title: 'Full Stack Web Developer & Android Developer',
+    title: 'Full Stack Web & Android Developer',
 
     jobs: 'Student',
     email: 'ashish.mishra52002@gmail.com',
@@ -263,7 +263,7 @@ export default {
             desc: 'This is the clone of popular video conferencing application called "ZOOM". This is build using node.js, express.js and peer.js , most the features are added here and it works perfect.',
             links: [
                 {
-                    link: 'https://github.com/ashishmishra-bit',
+                    link: 'https://github.com/ashishmishra-bit/zoom_clone',
                     icon: <GitHubIcon />
                 },
                 {
