@@ -259,8 +259,8 @@ export default {
             tag: 'Websites',
             images: Port6,
             title: 'Zoom Clone',
-            caption: 'A web site for the Start Up',
-            desc: 'This is the notes application coded in php.',
+            caption: 'Simple Zoom-Clone Web Application',
+            desc: 'This is the clone of popular video conferencing application called "ZOOM". This is build using node.js, express.js and peer.js , most the features are added here and it works perfect.',
             links: [
                 {
                     link: 'https://github.com/ashishmishra-bit',
