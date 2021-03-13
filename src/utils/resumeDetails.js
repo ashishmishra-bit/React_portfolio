@@ -276,8 +276,8 @@ export default {
             tag: 'Websites',
             images: Port7,
             title: 'Blog Template',
-            caption: 'A web site for the Start Up',
-            desc: 'This is the notes application coded in php.',
+            caption: 'This is Blog Template',
+            desc: 'This is Blog Template coded on Basic Html , Css , JavaScript , & Bootstrap.',
             links: [
                 {
                     link: 'https://github.com/ashishmishra-bit',
@@ -293,8 +293,8 @@ export default {
             tag: 'Websites',
             images: Port8,
             title: 'freelancecommunity.com',
-            caption: 'A web site for the Start Up',
-            desc: 'This is the notes application coded in php.',
+            caption: 'A web site for the Start Up.',
+            desc: 'The is the website for the company named freelancecommunitee.com.',
             links: [
                 {
                     link: 'https://github.com/ashishmishra-bit',
