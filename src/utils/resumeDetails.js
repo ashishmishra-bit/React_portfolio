@@ -7,9 +7,6 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import LanguageIcon from '@material-ui/icons/Language';
 import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
 import ShutterSpeedIcon from '@material-ui/icons/ShutterSpeed';
-
-
-
 import Port from "../assets/portfolio/notes.png";
 import Port2 from "../assets/portfolio/Kenisha Styles.png";
 import Port3 from "../assets/portfolio/befresh.png";
@@ -34,7 +31,7 @@ import Port18 from "../assets/portfolio/nightcoversion.png";
 
 
 export default {
-    name: 'Ashih Kumar Mishra',
+    name: 'Ashish Kumar Mishra',
     title: 'Full Stack Web & Android Developer',
 
     jobs: 'Student',

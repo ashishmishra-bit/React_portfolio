@@ -15,6 +15,7 @@ import GetAppIcon from '@material-ui/icons/GetApp';
 import CustomButton from '../Button/Button'
 
 const TimeLineItem = ({ title, text, link }) => (
+    <div sticky='top'>
     <TimelineItem>
         <TimeLineSeparator/>
         <TimelineContent>
@@ -32,6 +33,7 @@ const TimeLineItem = ({ title, text, link }) => (
             )}
         </TimelineContent>
     </TimelineItem>
+    </div>
 );
 
 const Profile = () => {
